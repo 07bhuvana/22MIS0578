@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: campus-notifications
+server:
+  port: 8080
+api:
+  base-url: http://4.224.186.213/evaluation-service
+  client-id: b7033366-f1e0-48f8-8622-47e2be0be1d1
+  client-secret: qAuDyehXzpmNfgMt
+  access-code: SfFuWg
+  auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJiaHV2YW5lc3dhcmlqbzcxMkBnbWFpbC5jb20iLCJleHAiOjE3Nzg5MzQxNzksImlhdCI6MTc3ODkzMzI3OSwiaXNzIjoiQWZmb3JkIE1lZGljYWwgVGVjaG5vbG9naWVzIFByaXZhdGUgTGltaXRlZCIsImp0aSI6IjFmMTdkNzgxLTIwNDgtNGI4Yy04NmI5LWE3ZjJmYmE0MDA5ZCIsImxvY2FsZSI6ImVuLUlOIiwibmFtZSI6ImJodXZhbmVzd2FyaSBuIiwic3ViIjoiYjcwMzMzNjYtZjFlMC00OGY4LTg2MjItNDdlMmJlMGJlMWQxIn0sImVtYWlsIjoiYmh1dmFuZXN3YXJpam83MTJAZ21haWwuY29tIiwibmFtZSI6ImJodXZhbmVzd2FyaSBuIiwicm9sbE5vIjoiMjJtaXMwNTc4IiwiYWNjZXNzQ29kZSI6IlNmRnVXZyIsImNsaWVudElEIjoiYjcwMzMzNjYtZjFlMC00OGY4LTg2MjItNDdlMmJlMGJlMWQxIiwiY2xpZW50U2VjcmV0IjoicUF1RHllaFh6cG1OZmdNdCJ9.secz2gIl_MnBHSkR015dFruuBDI7hG1DeMLC9Nc_SuU
+notification:
+  top-n: 10
+logging:
+  level:
+    com.affordmed: DEBUG
+    root: INFO 
